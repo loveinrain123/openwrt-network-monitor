@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+backend/.venv/
+.venv/
+venv/
+
+# Runtime data
+backend/traffic.json
+*.log
+
+# Native build outputs
+capture/monitor
+capture/test
+*.o
+*.out
+
+# OpenWrt build outputs
+*.ipk
+bin/
+build_dir/
+staging_dir/
+tmp/
+dl/
+
+# Documents and local report artifacts
+docs/~$*
+docs/*.doc
+docs/*.docx
+docs/*.pdf
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
